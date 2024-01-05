@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --background: #EEF0F4;
+  --text-primary: black;
+  --text-secondary: royalblue;
+  --accent: purple;
+  --active-checkbox-color: green;
+  --completed: black;
+  --in-active-checkbox-color: royalblue;
+  --box-shadow: 9.91px 9.91px 15px #D9DADE, -9.91px -9.91px 15px #FFFFFF;
+  --hover-box-shadow: -6px -6px 14px #D9DADE,  -6px -6px 10px #FFFFFF,  6px 6px 8px rgba(255, 255, 255, .075), 6px 6px 10px rgba(0, 0, 0, .15)
+}
+
+[data-theme='dark'] {
+  --background: #656565;
+  --text-primary: white;
+  --text-secondary: grey;
+  --active-checkbox-color: green;
+  --in-active-checkbox-color: white;
+  --completed: white;
+  --accent: darkred;
+  --box-shadow:   9.91px 9.91px 15px #5C5C5C,  -9.91px -9.91px 15px #6E6E6E;;
+}
